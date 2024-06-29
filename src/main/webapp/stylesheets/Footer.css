@@ -1,0 +1,91 @@
+/*
+    CSS styles for the footer
+    Author: [Author Name]
+    Date: [Date]
+*/
+
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer_container {
+    width: 100%;
+    padding: 70px 30px 20px;
+    background-color: rgb(137, 181, 180);
+}
+
+.foot_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.foot_icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(73, 143, 164);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.foot_icons a i {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+/*hover effect*/
+.foot_icons a:hover {
+    background-color: #2e6d77;
+    transition: 0.5s;
+}
+
+.footer_nav {
+    margin: 30px;
+}
+
+.footer_nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer_nav ul li a {
+    color: rgb(229, 229, 229);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer_nav ul li a:hover {
+    opacity: 1;
+}
+
+.footer_bottom {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_bottom p {
+    color: white;
+}
+
+.desginer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}

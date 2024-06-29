@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container1 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/Drip/images/page1.png);
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 0px 0%;
+}
+
+.Content {
+    color: #fff;
+    max-width: 620px;
+}
+
+.content h1 {
+    padding-left: 20px;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+    color: rgb(57, 57, 57);
+}
+
+.content p {
+    padding-left: 20px;
+    color: rgb(57, 57, 57);
+    text-align: justify;
+    line-height: 2;
+}
+
+.action_btn {
+    padding-left: 20px;
+    background-color: rgb(178, 178, 178);
+    color: rgb(233, 233, 233);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.action_btn:hover {
+    scale: 1.05;
+    color: white;
+    transition: 0.3s ease;
+    background-color: orange;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+article li {
+    list-style: none;
+}
+
+article a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+article img {
+    display: block;
+    height: auto;
+}
+
+article ion-icon {
+    pointer-events: none;
+}
+
+article {
+    background-color: white;
+    color: black;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.container {
+    padding-inline: 15px;
+}
+
+section {
+    padding-block: 40px;
+}
+
+.h1 {
+    color: black;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.service {
+    text-align: center;
+    margin-block-end: 30px;
+}
+
+.brand {
+    text-align: center;
+    margin-block-end: 30px;
+}
+
+.category .span {
+    display: inline;
+    color: orange;
+}
+
+.category {
+    text-align: center;
+    margin-block-end: 30px;
+}
+
+.service .span {
+    display: inline;
+    color: orange;
+}
+
+.brand .span {
+    display: inline;
+    color: orange;
+}
+
+.category_form .category_btn {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 20px;
+}
+
+.category_btn:hover {
+    color: orange;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.service_list {
+    display: grid;
+    gap: 30px;
+}
+
+.about_img {
+    width: 100%;
+}
+
+.category_card {
+    border: 1px solid #ccc;
+    /* Add border or styling as needed */
+    border-radius: 8px;
+    /* Add border radius for rounded corners */
+}
+
+.category_card .card_banner {
+    position: relative;
+    /* Allows absolute positioning within */
+    width: 100%;
+    /* Ensure banner takes full width */
+    height: 300px;
+    /* Adjust height as needed */
+}
+
+.category_card:hover {
+    transform: scale(1.08);
+}
+
+.category_card .card_title {
+    margin-block-start: 15px;
+    text-align: center;
+    transition: 0.2s ease;
+    text-align: center;
+    /* Centers the title */
+    padding: 10px 0;
+    /* Adds padding for better readability */
+    color: #333;
+    /* Adjust color as needed */
+    text-decoration: none;
+    /* Removes default underline */
+    display: block;
+}
+
+.service .img {
+    margin-inline: auto;
+    margin-block-end: 30px;
+}
+
+.service {
+    margin-block-end: 60px;
+}
+
+.service_card {
+    text-align: center;
+    width: 290px;
+}
+
+.service_card .card_icon {
+    max-width: max-content;
+    margin-inline: auto;
+    height: 100px;
+}
+
+.service_card .card_title {
+    margin-block: 10px;
+}
+
+.service_card .card_text {
+    color: gray;
+}
+
+.service_list {
+    display: flex;
+    min-width: 10%;
+}
+
+.cat_img {
+    object-fit: cover;
+    width: 100%;
+    /* Ensures image fills its container */
+    height: auto;
+    /* Maintains aspect ratio */
+    display: block;
+}
+
+.brand_card {
+    margin-inline: auto;
+    width: 180px;
+    height: 180px;
+}
+
+.brand_img {
+    width: 100%;
+    height: 100%;
+}
+
+.opt_item {
+    display: inline-block;
+    /* Ensures items are displayed in a row */
+    width: 330px;
+    /* Adjust width as needed */
+    margin: 0 10px;
+    /* Adjust margin as needed */
+    vertical-align: top;
+}

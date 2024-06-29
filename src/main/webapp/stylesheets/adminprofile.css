@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background: #1b203d;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.img_holder {
+    width: 100px;
+    height: 100px;
+    border-radius: 49%;
+    margin-left: 35%;
+    object-fit: cover;
+}
+
+.upload_img label {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.upload_profile {
+    text-align: center;
+}
+
+.upload_file {
+    margin-left: 28%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.Save_button {
+    margin-top: 20px;
+    text-align: right;
+}
+
+form {
+    background: #272c4a;
+    backdrop-filter: blur(35px);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+  
+}
+
+.row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.col {
+    flex: 1;
+    margin-right: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+}
+
+button {
+    background-color: rgb(153, 153, 153);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 35%;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.pw {
+    cursor: pointer;
+    color: white;
+}
+
+.upload_desc {
+    text-align: center;
+    font-size: 14px;
+    color: orange;
+    font-weight: 500;
+    cursor: none;
+}
+
+.head_ing {
+    color: rgb(255, 194, 82);
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .Save_button {
+        width: 100%;
+    }
+
+    input {
+        width: 90%;
+        padding: 10px;
+        border: 0px solid #ccc;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+
+    form {
+        background: rgba(255, 255, 255, 0.408);
+        backdrop-filter: blur(35px);
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 85%;
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+    }
+
+    .col,
+    .row {
+        flex: none;
+    }
+
+    .form-control {
+        width: 200%;
+    }
+
+    .sv_btn {
+        width: 50%;
+    }
+}

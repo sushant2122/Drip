@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: rgb(140, 188, 186);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 100px;
+    font-family: Arial, sans-serif;
+    background-color: inherit;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(35px);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.col {
+    flex: 1;
+    margin-right: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.gen {
+    display: inline-flex;
+    padding-right: 30px;
+}
+
+input[type="radio"] {
+    margin-top: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+select {
+    appearance: 1;
+}
+
+button {
+    background-color: rgb(153, 153, 153);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 95%;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.pw {
+    cursor: pointer;
+    color: white;
+}

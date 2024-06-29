@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119, 136, 136);
+    font-size: 20px;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Resetting default styles */
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 10%;
+    right: 20%;
+}
+
+/* Main section styles */
+.main {
+    position: absolute;
+    width: 50%;
+    min-height: 100vh;
+    transition: 0.5s;
+}
+
+/* Order Details List styles */
+.details {
+    position: relative;
+    width: 200%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    margin-left: 15%;
+}
+
+.details .recentOrders {
+    position: relative;
+    display: grid;
+    min-height: 100px;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+.details .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.details .cardHeader h2 {
+    font-weight: 600;
+    color: orange;
+}
+
+.details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.details table thead td {
+    font-weight: 600;
+    color: white;
+}
+
+.details .recentOrders table tr {
+    color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.details .recentOrders table tbody tr:hover {
+    background: orange;
+    color: white;
+}
+
+.details .recentOrders table tr td {
+    padding: 10px;
+}
+
+/* Title styles */
+.title {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.title span {
+    color: orange;
+}
+
+/* Status styles */
+.status {
+    padding: 2px 4px;
+    background: #799fa3;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Action button styles */
+.action_btn {
+    background-color: #8cbcba;
+    color: #214f74;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.action_btn:hover {
+    background-color: orange;
+    color: #fff;
+}

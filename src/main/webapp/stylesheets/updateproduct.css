@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+/* Resetting default styles */
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+body {
+    background: #1b203d;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+.container {
+    width: 45%;
+    margin-left: 26%;
+}
+
+.container .img_holder {
+    width: 50%;
+    height: 50%;
+    border-radius: 5%;
+    margin-left: 26%;
+    object-fit: cover;
+    background-color: white;
+}
+
+.upload_img label {
+    cursor: pointer;
+    text-align: center;
+}
+
+.upload_product {
+    text-align: center;
+}
+
+.upload_file {
+    margin-left: 28%;
+}
+
+.container .form-group {
+    margin-bottom: 20px;
+}
+
+.container .Save_button {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.container form {
+    background: #272c4a;
+    backdrop-filter: blur(35px);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+
+.container .row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.container .col {
+    flex: 1;
+    margin-right: 25px;
+}
+
+.container label {
+    display: block;
+    margin-top: 10px;
+}
+
+.container input,
+.container select,
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.container button {
+    background-color: rgb(153, 153, 153);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 35%;
+}
+
+.container button:hover {
+    background-color: orange;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: white;
+}
+
+.container .pw {
+    cursor: pointer;
+    color: white;
+}
+
+.container .upload_desc {
+    text-align: center;
+    font-size: 14px;
+    color: orange;
+    font-weight: 500;
+    cursor: none;
+}
+
+.container .head_ing {
+    color: rgb(255, 194, 82);
+}
+
+.container h1 {
+    color: white;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .container .Save_button {
+        width: 100%;
+    }
+
+    .container input {
+        width: 90%;
+        padding: 10px;
+        border: 0px solid #ccc;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+
+    .container form {
+        background: #272c4a;
+        backdrop-filter: blur(35px);
+        padding: 30px;
+        border-radius: 8px;
+        color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 85%;
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+    }
+
+    .container .col,
+    .container .row {
+        flex: none;
+    }
+
+    .container .form-control {
+        width: 200%;
+    }
+
+    .container .sv_btn {
+        width: 50%;
+    }
+}
