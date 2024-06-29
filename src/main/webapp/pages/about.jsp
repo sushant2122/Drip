@@ -48,79 +48,8 @@
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fab fa-google-square"></i></a></li>
                 </ul>
-            </div>
-             <div class="card">
-                    <img src="${pageContent.request.contextPath}/Drip/images/bg.png" alt="card background" class="card-img">
-                    <img src="${pageContent.request.contextPath}/Drip/images/suc.png" alt="profile image" class="profile-img">
-                    <h2 class="name">Suchan mushyan</h2>
-                    <p class="job-title">Backend developer</p>
-                    <p class="about">Experienced backend developer with a passion for creating robust and efficient solutions.
-                     Skilled in handling complex systems and optimizing performance. Proficient in various 
-                     technologies and frameworks, dedicated to delivering high-quality code. Committed
-                      to continuous learning and staying updated with the latest industry trends.</p>
-                    <a href="#" class="btn">Contact</a>
-                    <ul class="social-media">
-                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-square"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <img src="${pageContent.request.contextPath}/Drip/images/bg.png" alt="card background" class="card-img">
-                    <img src="${pageContent.request.contextPath}/Drip/images/krit.png" alt="profile image" class="profile-img">
-                    <h2 class="name">kritesh katuwal</h2>
-                    <p class="job-title">Frontend developer</p>
-                    <p class="about">Passionate frontend developer with a knack for crafting 
-                    engaging user interfaces and seamless experiences. Proficient in HTML, CSS, Javascript and 
-                    Bootstraps, with expertise in modern frameworks like React , Angular and Vue.js. Experienced
-                     in translating design concepts into functional, responsive web applications. 
-                     </p>
-                    <a href="#" class="btn">Contact</a>
-                    <ul class="social-media">
-                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-square"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <img src="${pageContent.request.contextPath}/Drip/images/bg.png" alt="card background" class="card-img">
-                    <img src="${pageContent.request.contextPath}/Drip/images/rana.png" alt="profile image" class="profile-img">
-                    <h2 class="name">Ranaveer karki</h2>
-                    <p class="job-title">UI/UX desginer</p>
-                    <p class="about">Creative UI/UX designer with a flair for crafting intuitive
-                     and visually stunning interfaces. Proficient in user research, wireframing,
-                      and prototyping tools to conceptualize and refine designs. Experienced in 
-                      collaborating with cross-functional teams to translate and  deliver delightful interactions 
-                       across platforms and devices.</p>
-                    <a href="#" class="btn">Contact</a>
-                    <ul class="social-media">
-                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-square"></i></a></li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <img src="${pageContent.request.contextPath}/Drip/images/bg.png" alt="card background" class="card-img">
-                    <img src="${pageContent.request.contextPath}/Drip/images/nitya.png" alt="profile image" class="profile-img">
-                    <h2 class="name">Nitya raj dhakal</h2>
-                    <p class="job-title">Frontend developer</p>
-                    <p class="about">Seasoned frontend developer specializing in building dynamic and 
-                    responsive web applications. Proficient in HTML, CSS, and JavaScript, with a focus on
-                     delivering pixel-perfect designs and seamless user experiences. Skilled in optimizing 
-                     performance and accessibility, and experienced in integrating with backend systems to
-                      create robust end-to-end solutions.</p>
-                    <a href="#" class="btn">Contact</a>
-                    
-                    <ul class="social-media">
-                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-square"></i></a></li>
-                    </ul>
-                </div>      
+            </div>     
+      
         </div>
     </div>
     <div class="contact-heading">
@@ -152,7 +81,7 @@
     <div class="reach-us">
         <h2>Reach Us</h2>
         <div class="contact-info">
-            <a href="tel:016632456" style="text-decoration:none; color:gray;"><p><i class="fa-solid fa-phone"></i> &ensp;+01 6632456</p></a>
+            <a href="tel:016632456" style="text-decoration:none; color:gray;"><p><i class="fa-solid fa-phone"></i> &ensp;+01 6630003</p></a>
               <br>
              <a href="mailto:drip@gmail.com" style="text-decoration:none; color:gray;"><p><i class="fa-solid fa-envelope"></i>&ensp;drip@gmail.com</p></a>
              <br>
